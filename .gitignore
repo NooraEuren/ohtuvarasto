@@ -1,0 +1,5 @@
+# ignorataan .tmp päätteiset tiedostot juuressa sekä
+# hakemistot __pycache__ ja .pytest_cache
+/*.tmp
+__pycache__/
+.pytest_cache/
