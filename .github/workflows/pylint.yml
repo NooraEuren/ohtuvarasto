@@ -15,6 +15,6 @@ jobs:
         with:
           python-version: "3.14"
       - name: Install dependencies
-        run: uv pylint
+        run: uv tool install pylint
       - name: Run tests
         run: uv run pylint src
